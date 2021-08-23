@@ -14,7 +14,7 @@ will be executed after a form interaction is detected. This is done by listening
 Pull-in a latest version with NPM ...
 
 ```bash
-yarn add tomouderengerink/recaptcha-v3
+yarn add @tomouderengerink/recaptcha-v3
 ```
 
 Initialize reCAPTCHA to a form element
