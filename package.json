@@ -1,6 +1,6 @@
 {
   "name": "@tomouderengerink/recaptcha-v3",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Wrapper around recaptcha V3 for improved page speed.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
