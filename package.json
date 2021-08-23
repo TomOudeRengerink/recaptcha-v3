@@ -1,0 +1,26 @@
+{
+  "name": "@tomouderengerink/recaptcha-v3",
+  "version": "1.0.1",
+  "description": "Wrapper around recaptcha V3 for improved page speed.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "prepare" : "npm run build",
+  "prepublishOnly" : "npm run lint",
+  "preversion" : "npm run lint",
+  "author": "Tom Oude Rengerink",
+  "license": "ISC",
+  "files": ["lib/**/*"],
+  "devDependencies": {
+    "prettier": "^2.3.2",
+    "ts-loader": "^9.2.5",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.3.5"
+  }
+}
