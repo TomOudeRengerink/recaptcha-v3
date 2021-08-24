@@ -21,7 +21,7 @@ Initialize reCAPTCHA to a form element
 
 ```js
 // Import the Recaptcha class into your JS file
-import Recaptcha from "@cube/recaptcha-v3";
+import Recaptcha from "@tomouderengerink/recaptcha-v3";
 
 // Create a new instance and provide your public site key
 const recaptcha = new Recaptcha('<reCAPTCHA_site_key>');
